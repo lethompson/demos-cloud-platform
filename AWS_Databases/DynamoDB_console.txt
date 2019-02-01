@@ -1,0 +1,20 @@
+DynamoDB (Demo Console)
+
+- ISBN
+123446788
+984562647
+
+- Author
+Lennox Thompson
+Rafael Lopes
+
+- Book
+Hardcover
+Paperback
+
+- Title
+Tech Essentials
+Architecting on AWS
+
+
+
