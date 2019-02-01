@@ -1,0 +1,12 @@
+docker -v
+mkdir webapp && cd ./webapp
+wget http://us-west-2-tcprod.s3.amazonaws.com/courses/ILT-TF-100-DODEVA/v3.0.3/lab-6-docker/scripts/website.zip
+unzip website.zip && rm -f website.zip
+cd ..
+pwd
+ls
+docker build -t webapp-image .
+docker images
+docker run --name webapp -d -p 80:80 webapp-image
+docker ps -a
+
